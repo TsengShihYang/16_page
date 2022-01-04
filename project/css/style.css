@@ -1,0 +1,82 @@
+body{
+    font-family: Microsoft JhengHei ,Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(235, 100, 10);
+    background-image: radial-gradient(circle, rgb(68, 70, 224),
+     rgb(51, 44, 75), rgb(247, 212, 212));
+}
+
+.card{
+    color: royalblue;
+}
+
+.card-title{
+    color: darkorange;
+}
+
+.box{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: all .5s ease-out;
+    height: 500px;
+    background-color:rgb(241, 236, 224);
+
+}
+
+.box:hover{
+    background: white;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0,.25);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: lightpink(118, 139, 0);
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .gbox{
+      height: 250px;
+      background-size: cover;
+      display: flex;
+      /* flex-direction:column; */
+      justify-content:flex-start;
+      align-items:flex-start;
+      color: darkorange;
+  }
+  #image1{
+      background-image: url(/images/011.jpg);
+  }
+  #image2{
+    background-image: url(/images/013.jpg);
+  }  
+    #image3{
+    background-image: url(/images/04.jpg);
+  }
+
+  .line{
+      width: 60px;
+      height: 6px;
+      border-radius: 3px;
+      margin: 10px auto;
+      transition: all .5s ease;
+  }
+  .box:hover .line{
+      width: 180px;
+  }
+
+  footer{
+   font-size: 18px;
+   text-align: center;
+  }
