@@ -1,0 +1,15 @@
+*{
+    /* background-color: lightblue; */
+    text-shadow:  0.1em 0.1em 0.2em gray; 
+}
+
+h1{
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+}
+
+.list{
+    font-size: 20px;
+    color: darkred;
+}
